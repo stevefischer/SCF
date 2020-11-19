@@ -27,9 +27,9 @@ header {
 /** hr Styles **/
 hr{
    border-top: 5px solid grey;
-   width: 455px;
+   width: 450px;
    margin: 0px;
-   left: 3.5%;
+   left: 7.5%;
    position: sticky;
     
 }
@@ -38,9 +38,8 @@ h1{
     font-family: Rio Grande;
     font-size: 35px;
     text-align: left;
-    color: saddlebrown;
-    margin: 0 3%;
-    margin-top: -40px;
+    color: #654321;
+    margin: 15px 0 0 7%;
    
 }
 
@@ -48,7 +47,7 @@ h2 {
     font-family: Rio Grande;
     font-size: 26px;
     text-align: left;
-    margin: 10px 3%;
+    margin: 0px 0 0 7%;
     margin-bottom: 20px;
     color: black;
    
@@ -58,7 +57,7 @@ h3{
     font-family: Rio Grande;
     font-size: 75px;
     text-align: center;
-    color: saddlebrown;
+    color: #654321;
 }
 
 h4{
@@ -72,9 +71,9 @@ h4{
 /** Navigation Styles **/
 ul{
   list-style-type: none;
-  margin: 0px;
-  padding-top: 60px;
+  margin-top: -70px;
   text-align: right;
+  margin-bottom: 50px
 }
 
 li {
@@ -87,7 +86,7 @@ li {
 
 li a {
   font-family: monospace;  
-  text-align: right;
+  text-align: center;
   text-decoration: none;
   font-size: 20px;
 }
@@ -101,10 +100,13 @@ li a:hover {
 .intro {
     font-family: Rio Grande;
     text-align: center;
-    margin: 2%;
-    padding: 5px;
+    margin: 5%;
+    padding: 15px;
+    padding-bottom: 75px;
     background-color: white;
 }
+
+/** Paragraph Styles **/
 p{
     font-family: Montague;
     font-size: 27px;
@@ -112,6 +114,30 @@ p{
     padding: 10px;
 }
 
+/** Footer Styles **/
 #footer{
 	text-align:center;
+}
+
+/** Buitton Styles **/
+
+button {
+  font-family: Montague;
+  background-color:#654321;
+  border-radius: 89px;
+  margin: 8px 43%; 
+  border: none;
+  color: white;
+  padding: 15px 21px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.spotify{
+    width: 500px;
+    height: 80px;
+    display: none;
+    
 }
