@@ -1,125 +1,150 @@
 <!DOCTYPE html>
+
+<!--
+    Name: Steve's Country Favorites
+    Author: Steve Fischer
+    Date: 11/11/2020
+    Other Files: about.htm, index.htm, scf.js, songs.htm, styles.css
+-->
+
 <html>
     <head>
-        <title>My Favorite Artists | Steve's Country Favorites</title>
+        <title>My Favorite Songs | Steve's Country Favorites</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="shortcut icon" href="Pictures/logo.ico">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="scf.js"></script>
     </head>
+    
     <section>
         <header>
-        <img src="logo.png" width="75px;" style="padding: 15px; position: absolute;"/>
+        <img src="Pictures/logo.png" width="75px;" style="padding: 15px; position: absolute;"/>
         <h1 style="position: relative;">Steve's Country Favorites</h1>
         <hr style="position: sticky;" />
         <h2 style="position:relative" >Sharing my love of country music</h2>
         <ul>
             <li><a href="index.htm">Home</a></li>        
-            <li><a>Background</a></li>        
+            <li><a href="about.htm">About</a></li>
             <li><a href="artists.htm">Artists</a></li>
             <li><a href="songs.htm">Songs</a></li>        
-            <li><a>Concerts</a></li>        
+            <li><a>Concerts</a></li>
         </ul>
         
     </header>
     </section>
     
-    <script>
-    
-    $(document).ready(function(){
-    $("#one").click(function(){
-    $("#darius").fadeIn(3000);
-    });
-    });
-    
-    $(document).ready(function(){
-    $("#two").click(function(){
-    $("#brad").fadeIn(3000);
-    });
-    });
-    
-     $(document).ready(function(){
-    $("#three").click(function(){
-    $("#blaine").fadeIn(3000);
-    });
-    });
- 
-    $(document).ready(function(){
-    $("#five").click(function(){
-    $("#kelsea").fadeIn(3000);
-    });
-    });   
-        
-     $(document).ready(function(){
-    $("#six").click(function(){
-    $("#carly").fadeIn(3000);
-    });
-    });
-    
-    $(document).ready(function(){
-    $("#seven").click(function(){
-    $("#maddie").fadeIn(3000);
-    $("#tae").fadeIn(3000);
-    });
-    });
-    
-    $(document).ready(function(){
-    $("#eight").click(function(){
-    $("#chris").fadeIn(3000);
-    });
-    });
-   
-    $(document).ready(function(){
-    $("#ten").click(function(){
-    $("#sugar").fadeIn(3000);
-    });
-    });
-    
-   
-  
-        
-    </script>
     <body>
         <section class="intro">
         
             <h3 style="margin-bottom: 0px">My Favorite Artists</h3>
             <h4 style="margin-bottom: 5px;">Below are some of my favorite country artists:</h4>
-            <p style="font-style: bold;">Click an artist's name for a surprise . . .</p>
+            <p style="font-style: bold;">Click an artist's name to learn more on why they are one of my favorites.</p>
             <br>
            
-            <p id="one">Darius Rucker</p>
-            <img id="darius" src="darius.jpg" width="200" style="display: none"/>
+            <h4 id="one" style="margin-top: 30px; margin-bottom: 0px;">Darius Rucker</h4>
             
-            <p id="two">Brad Paisley</p>
-            <img id="brad" src="brad.jpg" width="200" style="display: none"/>
+            <img id="darius" src="Pictures/darius.jpg" width="400" style="display: none; padding: 15px;"/>
             
-            <p id="three">Blaine Larsen</p>
-            <img id="blaine" src="blaine.jpg" width="200" style="display: none"/>
+             <p id="dariusText" style="display: none;">I have been a fan of Darius for the past twelve years. As most people know him as the lead singer of Hootie &amp; the Bowfish, I know him from his country career, but I have become a fan of Hootie &amp; the Blowfish since discovering Darius. I listen to Darius constantly because he has songs that are so good and there is one for every mood.
+<!--
+             <br>        
+             <br>     
+             Favorite Songs: Learn to Live, This, Heartbreak Road, Southern Style, If I Had Wings
+-->
             
-            <p id="four">Ashley McBryde</p>
+            </p>
+           
+           
+            <br>
             
-            <p id="five">Kelsea Ballerini</p>
-            <img id="kelsea" src="kelsea1.jpg" width="200" style="display: none"/>
+           <h4 id="two" style="margin-top: 15px; margin-bottom: 0px;">Brad Paisley</h4>
+            <img id="brad" src="Pictures/brad.jpg" width="400" style="display: none; padding: 15px;";/>
+            <br>
+             <p id="bradText" style="display: none;">I have been a fan of Brad since his 2003 album, Mud on the Tires. I really remember being obsessed with that album’s title track, and I have been a fan ever since. I am a fan of his guitar style, that’s actually what got me loving and into playing guitar myself. 
+<!--
+             <br>        
+             <br>     
+             Favorite Songs: Mud on the Tires, Remind Me (duet with Carrie Underwood), He Didn’t Have To Be
+-->
             
-            <p id="six">Carly Pearce</p>
-            <img id="carly" src="carly.jpg" width="200" style="display: none"/>
+            </p>
+           
+            <h4 id="three" style="margin-top: 15px; margin-bottom: 0px;">Blaine Larsen</h4>
+            <img id="blaine" src="Pictures/blaine.jpg"width="400" style="display: none; padding: 15px;";/>
+            <br>
+                 <p id="blaineText" style="display: none;">I have been a fan of Blaine since the start of his career in 2004, when he was just fifteen years old. I am a fan because given he started so young in the music business, he writes about his life (i.e. The Best Man) and where he was at that point in his life (i.e. In My High School). Plus, he and I have something in common from being from in the Pacific Northwest (PNW), which not many country stars are from PNW.
+<!--
+
+             <br>        
+             <br>     
+             Favorite Songs: In My High School, The Best Man, Spoken Like A Man, I Don’t Know What She Said, If Merle Would Sing My Song (featuring Merle Haggard)
+-->
             
-            <p id="seven">Maddie &amp; Tae</p>
-            <img id="maddie" src="maddie.JPG" width="200" style="display: none"/>
-            <img id="tae" src="Tae.JPG" width="200" style="display: none"/>
+            </p>
+            <h4 id="four" style="margin-top: 15px; margin-bottom: 0px;">Ashley McBryde</h4>
+                
+                <p id="ashleyText" style="display: none; padding-top: 15px;">I have been a fan since I first heard her debut song, “A Little Dive Bar in Dahlonega” on Sirius XM’s The Highway, part of their Highway Finds program in 2018. She writes country lyrics; however has a hint of rock music influence in her sound, which makes her very interesting to listen to.
+
+<!--
+             <br>        
+             <br>     
+             Favorite Songs: Girl Goin’ Nowhere, The Jacket, Radioland, Martha Divine, Better On The Water
             
-            <p id="eight">Chris Young</p>
-            <img id="chris" src="chris.jpg" width="200" style="display: none"/>
+-->
+            </p>
+            <br>
             
-            <p id="nine">Montgomery Gentry</p>
+            <h4 id="five" style="margin-top: 15px; margin-bottom: 0px;">Kelsea Ballerini</h4>
+            <img id="kelsea" src="Pictures/kelsea1.jpg" width="400" style="display: none; padding: 15px;"/>
+            <br>
+             <br>
+             <p id="kelseaText" style="display: none; padding-bottom: 15px;">I have been a fan of Kelsea since she released her debut self-titled extended-play (EP) in 2014 and have enjoyed watching her career evolve in recent years. In August 2015, I had the opportunity to see Kelsea in concert at Clearwater Casino, about six months after she released her debut album, The First Time. It is crazy to see her career grow in popularity from being a fan from the very beginning of her career.
+            </p>
             
-            <p id="ten" style="margin-bottom: 10px">Sugarland</p>
-            <img id="sugar" src="sugarland.jpg" width="200" style="display: none; padding-bottom: 50px;"/>
+             <h4 id="six" style="margin: 0px;">Carly Pearce</h4>
+            <img id="carly" src="Pictures/carly.jpg" width="400" style="display: none; padding: 15px;"/>
+            <br>
+            <p id="carlyText" style="display: none;">I have been a fan of Carly’s since her debut song, "Every Little Thing", which became a Highway Find on Sirius XM’s The Highway in 2017. It has been crazy to see her career go from being a background singer for "Pretty Little Liars" actress, Lucy Hale in 2014 to the multi-platinum superstar that she is now: releasing two great albums/working on a third, winning multiple awards (i.e. CMT, CMA).
+            </p>
             
+             <h4 id="seven" style="margin-top: 15px; margin-bottom: 0px;">Maddie and Tae</h4>
+            <img id="maddie" src="Pictures/maddie.JPG" width="400" style="display: none; padding: 15px;"/>
+            <img id="tae" src="Pictures/Tae.JPG" width="400" style="display: none;padding: 15px;"/>
+            <br>
+            <p id="mandtText" style="display: none;">I have been a fan of Maddie &amp; Tae since their debut single “Girl in a Country Song” in 2015 because of its take on modern country music during this time, how almost every song by a male artist were about driving around town with a girl in the shotgun seat of their truck, wearing short-shorts. With this song, they were able to make a statement and start their career with a number one hit. Since then, they have gone through a lot with their career, losing a record deal after just three singles to radio, and signing with a new label and five year gap between debut and sophomore albums. I am proud to be a fan of this duo and can see them releasing more great music in the future.
+            </p>
+            
+             <h4 id="eight" style="margin-top: 15px; margin-bottom: 0px;">Chris Young</h4>
+            <img id="chris" src="Pictures/chris.jpg" width="400" style="display: none;padding: 15px;"/>
+                <p id="chrisText" style="display: none;">I have been a fan of Chris since his song “Gettin’ You Home” in 2009. I like how catchy his songs are, they are ear worms from the first listen. He first gained popularity from being on and winning season four of Nashville Star, a country music reality singing competition show in 2007, which air on the USA Network. He has gone on to score many number one hits and winning multiple major country music awards over the years. 
+            </p>
+            <br>
+             <h4 id="nine" style="margin-top: 15px; margin-bottom: 0px;">Montgomery Gentry</h4>
+            <br>
+               <p id="montText" style="display: none;">I have been a fan of Montgomery Gentry since their song “Gone” was released in 2004. They have so many catch songs and their voices blend well as a duo, it is easy to just turn on a Montgomery Gentry song and instantly have a smile on your face. They have made an impact on country music with their songs and Troy Gentry’s legacy, one-half of the duo, who was killed in a plane crash in 2017, will live on through their music and Eddie Montgomery going out and performing their songs for years to come. Since Gentry’s death, the duo has released two studio albums (from recordings before crash) in 2018 and 2019, and a greatest hits album to commemorate the 20 year anniversary of the duo in 2018. 
+            </p>
+            
+             <h4 id="ten" style="margin-top: 15px; margin-bottom: 0px;">Sugarland</h4>
+            <img id="sugar" src="Pictures/sugarland.jpg" width="400" style="display: none; padding-top: 15px;"/>
+            <br><br>
+            <p id="sugarText" style="display: none;">I have been a fan of Sugarland since their debut single, “Baby Girl” in 2004. They have evolved so much as a band over the years, starting as a trio and now performing as a duo since 2005. They have a wide range of songs from ballads like “Stay” and up-tempo songs like “Stuck Like Glue”. In 2012, the duo wanted to take a hiatus and to pursue solo projects, and they would do so until 2017. During this time, the lead singer, Jennifer Nettles would release two solo studio albums, as well as a Christmas album; while background singer of duo, Kristian Bush would release one. In 2017, the band would make a comeback with a new album, “Bigger” and single “Still The Same”, as well as a song with Taylor Swift called, “Babe”.
+            </p>
         </section>
     </body>
     
     <footer>
-        <h2 id="footer">Steve Fischer Designs &copy; 2020 </h2>
-</footer>
+        
+    <img width="500px" src="Pictures/logo1.png" id="footerNav" />
+    <br>
+	<a class="footNav" href="index.htm">Home</a><br>
+	<a class="footNav" href="about.htm" >About</a><br>  
+	<a class="footNav" href="artists.htm">Artists</a><br>
+	<a class="footNav" href="songs.htm">Songs</a><br>
+    <a class="footNav" href="songs.htm">Concerts</a><br>
+	<br>
+    <p class="copy">&copy;2020 Steve Fischer Designs</p>
+       
+     </footer>
 </html>

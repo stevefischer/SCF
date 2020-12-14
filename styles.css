@@ -1,3 +1,10 @@
+/**
+    Name: Steve's Country Favorites
+    Author: Steve Fischer
+    Date: 11/12/2020
+    Other Files: about.htm, artists.htm, index.htm, scf.js, songs.htm
+**/
+
 /** Imported Fonts **/
 
 @font-face {
@@ -14,16 +21,23 @@
 body {
     background-color: rgb(239,228, 176);
     margin: 0px;
+   
 
 }
 
 header {
+    
     background-color: lightgray;
-    padding: 5px;
+    padding: 10px;
     border: 5px dashed white; 
-   
 }
 
+footer {
+    background-color: lightgray;
+    margin-top: -9px;
+    text-align: center;
+    border: 5px dashed white; 
+}
 /** hr Styles **/
 hr{
    border-top: 5px solid grey;
@@ -50,7 +64,6 @@ h2 {
     margin: 0px 0 0 7%;
     margin-bottom: 20px;
     color: black;
-   
 }
 
 h3{
@@ -70,10 +83,11 @@ h4{
 }
 /** Navigation Styles **/
 ul{
+  font-family: bold;
   list-style-type: none;
   margin-top: -70px;
   text-align: right;
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
 li {
@@ -89,10 +103,24 @@ li a {
   text-align: center;
   text-decoration: none;
   font-size: 20px;
+  color:
 }
 
 li a:hover {
-	font-family: monospace, bold;
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+a{
+  font-family: monospace;  
+  color: grey;
+  top: 50%;
+  left:20%;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 /** Intro Styles **/
@@ -110,13 +138,25 @@ li a:hover {
 p{
     font-family: Montague;
     font-size: 27px;
-    margin: 0 5%;
-    padding: 10px;
+    margin: 0 8%;
 }
 
 /** Footer Styles **/
-#footer{
-	text-align:center;
+
+#footerNav {
+    font-size: 15px;
+    
+    margin: 0px 33%;
+}
+
+
+.popup{
+	display: none; 
+	padding-bottom: 20px;
+}
+
+.copy {
+    text-align: center;
 }
 
 /** Buitton Styles **/
@@ -124,20 +164,28 @@ p{
 button {
   font-family: Montague;
   background-color:#654321;
-  border-radius: 89px;
-  margin: 8px 43%; 
+  border-radius: 50px; 
   border: none;
   color: white;
-  padding: 15px 21px;
+  padding: 6px 5%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 25px;
+  
 }
 
+#footNav{
+   text-align: center;
+}
 .spotify{
     width: 500px;
     height: 80px;
     display: none;
     
+}
+
+#one, #two, #three, #four, #five,
+#six, #seven, #eight, #nine, #ten{
+    padding-top: 15px;
 }
