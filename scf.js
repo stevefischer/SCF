@@ -260,133 +260,195 @@
 
 /** Songs Page **/
 
-/* Wagon Wheel*/
- $(document).ready(function(){
- $("#one").click(function(){
- $("#wagon").slideDown();
- $("#happy").slideUp();
- $("#great").slideUp();
- $("#feet").slideUp();
- $("#limit").slideUp();
- $("#check").slideUp();
- $("#merle").slideUp();
- $("#storm").slideUp();
- $("#proud").slideUp();
- });
- });
-   
-/* Happy Now */
- $(document).ready(function(){
- $("#two").click(function(){
- $("#happy").slideDown("slow");
- $("#wagon").slideUp();
- $("#great").slideUp();
- $("#feet").slideUp();
- $("#limit").slideUp();
- $("#check").slideUp();
- $("#merle").slideUp();
- $("#storm").slideUp();
- $("#proud").slideUp();
- });
- });
- 
-/* Great Day */
-$(document).ready(function(){
- $("#three").click(function(){
- $("#great").slideDown("slow");
- $("#wagon").slideUp();
- $("#happy").slideUp();
- $("#feet").slideUp();
- $("#limit").slideUp();
- $("#check").slideUp();
- $("#merle").slideUp();
- $("#storm").slideUp();
- $("#proud").slideUp();
- });
- });
-    
-/* Six Feet */
-$(document).ready(function(){
- $("#four").click(function(){
- $("#feet").slideDown("slow");
- $("#wagon").slideUp();
- $("#happy").slideUp();
- $("#great").slideUp();
- $("#limit").slideUp();
- $("#check").slideUp();
- $("#merle").slideUp();
- $("#storm").slideUp();
- $("#proud").slideUp();
- });
- });
+    /* Wagon Wheel*/
+     $(document).ready(function(){
+     $("#one").click(function(){
+     $("#wagon").slideDown();
+     $("#happy").slideUp();
+     $("#great").slideUp();
+     $("#feet").slideUp();
+     $("#limit").slideUp();
+     $("#check").slideUp();
+     $("#merle").slideUp();
+     $("#storm").slideUp();
+     $("#proud").slideUp();
+     });
+     });
 
-/* Limitless */
-$(document).ready(function(){
- $("#five").click(function(){
- $("#limit").slideDown("slow");
- $("#wagon").slideUp();
- $("#happy").slideUp();
- $("#feet").slideUp();
- $("#check").slideUp();
- $("#merle").slideUp();
- $("#storm").slideUp();
- $("#proud").slideUp();
- });
- });
-  
-/* Check y/n */
-$(document).ready(function(){
- $("#six").click(function(){
- $("#check").slideDown("slow");
- $("#wagon").slideUp();
- $("#happy").slideUp();
- $("#feet").slideUp();
- $("#limit").slideUp();
- $("#merle").slideUp();
- $("#storm").slideUp();
- $("#proud").slideUp();
- });
- });
- 
-/* If Merle */
-$(document).ready(function(){
- $("#seven").click(function(){
- $("#merle").slideDown("slow");
- $("#wagon").slideUp();
- $("#happy").slideUp();
- $("#feet").slideUp();
- $("#check").slideUp();
- $("#limit").slideUp();
- $("#storm").slideUp();
- $("#proud").slideUp();
- });
- });
-    
-/* Storm Blows */
-$(document).ready(function(){
- $("#eight").click(function(){
- $("#storm").slideDown("slow");
- $("#wagon").slideUp();
- $("#happy").slideUp();
- $("#feet").slideUp();
- $("#check").slideUp();
- $("#merle").slideUp();
- $("#limit").slideUp();
- $("#proud").slideUp();
- });
- });
+    /* Happy Now */
+     $(document).ready(function(){
+     $("#two").click(function(){
+     $("#happy").slideDown("slow");
+     $("#wagon").slideUp();
+     $("#great").slideUp();
+     $("#feet").slideUp();
+     $("#limit").slideUp();
+     $("#check").slideUp();
+     $("#merle").slideUp();
+     $("#storm").slideUp();
+     $("#proud").slideUp();
+     });
+     });
 
-/* Be Proud*/
-                
-$(document).ready(function(){       
- $("#nine").click(function(){
- $("#proud").slideDown("slow");
- $("#wagon").slideUp();
- $("#happy").slideUp();
- $("#feet").slideUp();
- $("#check").slideUp();
- $("#merle").slideUp();
- $("#storm").slideUp();
- $("#limit").slideUp();
- });
- });
+    /* Great Day */
+    $(document).ready(function(){
+     $("#three").click(function(){
+     $("#great").slideDown("slow");
+     $("#wagon").slideUp();
+     $("#happy").slideUp();
+     $("#feet").slideUp();
+     $("#limit").slideUp();
+     $("#check").slideUp();
+     $("#merle").slideUp();
+     $("#storm").slideUp();
+     $("#proud").slideUp();
+     });
+     });
+
+    /* Six Feet */
+    $(document).ready(function(){
+     $("#four").click(function(){
+     $("#feet").slideDown("slow");
+     $("#wagon").slideUp();
+     $("#happy").slideUp();
+     $("#great").slideUp();
+     $("#limit").slideUp();
+     $("#check").slideUp();
+     $("#merle").slideUp();
+     $("#storm").slideUp();
+     $("#proud").slideUp();
+     });
+     });
+
+    /* Limitless */
+    $(document).ready(function(){
+     $("#five").click(function(){
+     $("#limit").slideDown("slow");
+     $("#wagon").slideUp();
+     $("#happy").slideUp();
+     $("#feet").slideUp();
+     $("#check").slideUp();
+     $("#merle").slideUp();
+     $("#storm").slideUp();
+     $("#proud").slideUp();
+     });
+     });
+
+    /* Check y/n */
+    $(document).ready(function(){
+     $("#six").click(function(){
+     $("#check").slideDown("slow");
+     $("#wagon").slideUp();
+     $("#happy").slideUp();
+     $("#great").slideUp();
+     $("#feet").slideUp();
+     $("#limit").slideUp();
+     $("#merle").slideUp();
+     $("#storm").slideUp();
+     $("#proud").slideUp();
+     });
+     });
+
+    /* If Merle */
+    $(document).ready(function(){
+     $("#seven").click(function(){
+     $("#merle").slideDown("slow");
+     $("#wagon").slideUp();
+     $("#happy").slideUp();
+     $("#feet").slideUp();
+     $("#check").slideUp();
+     $("#limit").slideUp();
+     $("#storm").slideUp();
+     $("#proud").slideUp();
+     });
+     });
+
+    /* Storm Blows */
+    $(document).ready(function(){
+     $("#eight").click(function(){
+     $("#storm").slideDown("slow");
+     $("#wagon").slideUp();
+     $("#happy").slideUp();
+     $("#feet").slideUp();
+     $("#check").slideUp();
+     $("#merle").slideUp();
+     $("#limit").slideUp();
+     $("#proud").slideUp();
+     });
+     });
+
+    /* Be Proud*/
+
+    $(document).ready(function(){       
+     $("#nine").click(function(){
+     $("#proud").slideDown("slow");
+     $("#wagon").slideUp();
+     $("#happy").slideUp();
+     $("#feet").slideUp();
+     $("#check").slideUp();
+     $("#merle").slideUp();
+     $("#storm").slideUp();
+     $("#limit").slideUp();
+     });
+     });
+
+/** Concerts Page **/
+
+    /* Opry */
+
+    $(document).ready(function(){       
+         $("#one").click(function(){
+         $("#opry1").slideDown();
+         $("#opry2").slideDown();
+         $("#opry3").slideDown();
+         $("#opry4").slideDown();
+         $("#opry5").slideDown();
+         $("#opry6").slideDown();
+         });
+         });
+
+
+    /* Summer Plays On */
+    
+    $(document).ready(function(){       
+         $("#two").click(function(){
+        // $("#summerText").fadeIn(1500);
+         $("#summer1").slideDown();
+         $("#summer3").slideDown();
+         $("#summer4").slideDown();
+         $("#summer5").slideDown();
+         $("#summer6").slideDown();
+         });
+         });
+
+    /* Sugarland */
+  $(document).ready(function(){       
+         $("#eight").click(function(){
+          $("#sugar1").slideDown();
+          $("#sugar2").slideDown();
+          $("#sugar3").slideDown();
+         });
+         });
+
+  $(document).ready(function(){       
+         $("#five").click(function(){
+        // $("#summerText").fadeIn(1500);
+         $("#mt1").slideDown();
+         $("#mt2").slideDown();
+         $("#mt3").slideDown();
+         $("#mt4").slideDown();
+         $("#mt5").slideDown();
+       
+         });
+         });
+
+  $(document).ready(function(){       
+         $("#three").click(function(){
+         $("#story1").slideDown();         
+         $("#story2").slideDown();         
+         $("#story3").slideDown();         
+         $("#story4").slideDown();         
+         $("#story5").slideDown();         
+         });
+         });
+
